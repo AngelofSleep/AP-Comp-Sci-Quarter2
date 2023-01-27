@@ -1,5 +1,5 @@
 import java.util.*;
-public class Loops
+public class Loops //Unit 4, lab 3
 {
    public static void main(String[] args)
    {
@@ -13,14 +13,14 @@ public class Loops
       starTriangle();
       starReverseTriangle();
    }
-   public static void squaresAndCubes(int start, int end)
-   {
+   public static void squaresAndCubes(int start, int end) //generates a table showing start, start2 and start3 
+   {                                                      //that continues while the start3 is less than the ending number
       for(int x = start; Math.pow(x, 3) < end; x++)
       {
          System.out.println(x + " " + Math.pow(x, 2) + " " + Math.pow(x, 3));
       }
    }
-   public static void starRectangle()
+   public static void starRectangle() //makes 5x5 block of asterisks
    {
       for(int x = 1; x <= 5; x++)
       {
@@ -29,7 +29,7 @@ public class Loops
          System.out.println();
       }
    }
-   public static void starTriangle()
+   public static void starTriangle() //makes right triangle of asterisks
    {
       for(int x = 1; x <= 5; x++)
       {
@@ -38,7 +38,7 @@ public class Loops
          System.out.println();
       }
    }
-   public static void starReverseTriangle()
+   public static void starReverseTriangle() //same as previous method, but triangle reversed
    {
       for(int x = 1; x <= 5; x++)
       {
