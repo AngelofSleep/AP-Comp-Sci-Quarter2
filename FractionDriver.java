@@ -1,4 +1,4 @@
-public class FractionDriver
+public class FractionDriver //exists solely to test Fraction.java, tests all methods
 {
    public static void main(String[] args) 
    {
