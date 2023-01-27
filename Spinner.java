@@ -1,4 +1,4 @@
-public class Spinner
+public class Spinner //object that imitates a board game type spinner
 {
    private String color;
    private int sections;
@@ -28,7 +28,7 @@ public class Spinner
    {
       sections = n;
    }
-   public int spin()
+   public int spin() //simulates spinning a spinner
    {
       return (int)(sections*Math.random()) + 1;
    }
